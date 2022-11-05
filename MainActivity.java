@@ -32,11 +32,4 @@ public class MainActivity extends AppCompatActivity {
             }
         });
     }
-    public void calculate(View view){
-        Toast.makeText(MainActivity.this, "Kaisa laga mera pehla APP Thanks for using ", Toast.LENGTH_SHORT).show();
-        String s = editText.getText().toString();
-        int kg = Integer.parseInt(s);
-        double pound = 2.205 * kg;
-        textView.setText("The Corresponding Value in Pounds is " + pound);
-    }
 }
